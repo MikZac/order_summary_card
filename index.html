@@ -35,9 +35,12 @@
                 </div>
             </div>
         </div>
-        <button class="payment">Proceed to payment</button>
+        <button class="button" onclick="this.classList.toggle('button--loading')">
+            <span class="button__text">Procced to Payment</span>
+        </button>
         <a href="" class="cancel-order">Cancel order</a>
     </main>
+    <script src="button.js"></script>
 </body>
 
 </html>
